@@ -1,0 +1,25 @@
+{
+  "name": "tellMeWhen",
+  "version": "0.0.0",
+  "description": "Simple bot to remind when something is due",
+  "main": "app.js",
+  "repository": "https://github.com/arduored/discord-bot.git",
+  "author": "Edouard Souan <edouard.souan@eshard.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/bot.ts"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  }
+}
